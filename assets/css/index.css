@@ -84,6 +84,16 @@ main{
     flex-direction: column;
 }
 
+#result{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: end;
+    font-size: 4rem;
+}
+
 /* r by ROW */
 .r{
     width: 30rem;
@@ -107,6 +117,11 @@ main{
     color: red;
     background-color: transparent;
     transition: 0.3s;
+}
+
+#clear{
+    width: 100%;
+    height: 6rem;
 }
 
 /* Container right */
