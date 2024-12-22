@@ -25,25 +25,25 @@
                         <button class="calc-button" id="7" onclick="insertInScreen('7')">7</button>
                         <button class="calc-button" id="8" onclick="insertInScreen('8')">8</button>
                         <button class="calc-button" id="9" onclick="insertInScreen('9')">9</button>
-                        <button class="calc-button" id="/">/</button>
+                        <button class="calc-button" id="/" onclick="insertInScreen('/')">/</button>
                     </div>
                     <div class="r">
                         <button class="calc-button" id="4" onclick="insertInScreen('4')">4</button>
                         <button class="calc-button" id="5" onclick="insertInScreen('5')">5</button>
                         <button class="calc-button" id="6" onclick="insertInScreen('6')">6</button>
-                        <button class="calc-button" id="X">X</button>
+                        <button class="calc-button" id="X" onclick="insertInScreen('*')">X</button>
                     </div>
                     <div class="r">
                         <button class="calc-button" id="1" onclick="insertInScreen('1')">1</button>
                         <button class="calc-button" id="2" onclick="insertInScreen('2')">2</button>
                         <button class="calc-button" id="3" onclick="insertInScreen('3')">3</button>
-                        <button class="calc-button" id="-">-</button>
+                        <button class="calc-button" id="-" onclick="insertInScreen('-')">-</button>
                     </div>
                     <div class="r">
                         <button class="calc-button" id="0" onclick="insertInScreen('0')">0</button>
-                        <button class="calc-button" id=".">.</button>
-                        <button class="calc-button" id="=">=</button>
-                        <button class="calc-button" id="+">+</button>
+                        <button class="calc-button" id="." onclick="insertInScreen('.')">.</button>
+                        <button class="calc-button" id="=" onclick="callResult()">=</button>
+                        <button class="calc-button" id="+" onclick="insertInScreen('+')">+</button>
                     </div>
                     <div class="r">
                         <button class="calc-button" id="clear" onclick="ClearScreen()">C</button>
