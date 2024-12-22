@@ -12,6 +12,8 @@ body{
     font-family: 'Poppins' , sans-serif;
 }
 
+/* Header Styles */ 
+
 header{
     width: 100%;
     height: 5rem;
@@ -34,10 +36,49 @@ header{
 }
 
 
+/* Main Styles */
+
+main{
+    background-color: #252525;
+    width: 100%;
+    height: 90.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container left */
+.container-left{
+    width: 50%;
+    height: 90.5vh;
+    background-color: #fff;
+}
+
+/* Container right */
+
+.container-right{
+    width: 50%;
+    height: 90.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mathTips-container{
+    width: 50%;
+    height: 90%;
+    border-radius: 1rem;
+    background-color: #FFF;
+}
+
+.mathTips-container h2{
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 0.1rem solid black;
+}
 
 
-
-
+/* Footer Styles */
 
 .footer-container{
     width: 100%;
